@@ -35,7 +35,8 @@ def remove_strawberry(contacts)
       |attribute, data|
       if attribute ==
         :favorite_ice_cream_flavors
-      binding.pry
+        binding.pry
+      end
     end
   end
 end
