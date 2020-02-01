@@ -37,10 +37,9 @@ def remove_strawberry(contacts)
         :favorite_ice_cream_flavors
         data.delete_if {|ice_cream|
         ice_cream == "strawberry"}
-        binding.pry
       end
     end
   end
 end
-
+remove_strawberry
 end
